@@ -1,0 +1,19 @@
+/*home page*/
+
+<link href="https://fonts.googleapis.com/css?family=Bungee|Fredoka+One|Righteous&display=swap" rel="stylesheet">
+
+font-family: 'Righteous', cursive;
+font-family: 'Fredoka One', cursive;
+font-family: 'Bungee', cursive;
+
+color: #FF5647 #262626 #F2F2F2 #F2C84B #F2B84B #FB2412 #0D0D0D #72A603
+
+
+<link href="https://fonts.googleapis.com/css?family=Abel|Athiti|Inconsolata|Rajdhani|Red+Hat+Display|Red+Hat+Text&display=swap" rel="stylesheet">
+
+font-family: 'Abel', sans-serif;
+font-family: 'Athiti', sans-serif;
+font-family: 'Inconsolata', monospace;
+font-family: 'Rajdhani', sans-serif;
+font-family: 'Red Hat Display', sans-serif;
+font-family: 'Red Hat Text', sans-serif;
