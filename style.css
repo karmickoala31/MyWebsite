@@ -844,10 +844,10 @@ li{
 /*****************************************SMARTPHONES*************************************************/
 
 @media screen and (min-width: 0px) and (max-width: 767px) {
-  body{
+  /* body{
     background: url("Images/phone_bg.PNG") no-repeat center fixed;
     background-size: cover;
-  }
+  } */
   div.loader-wrapper{
     /* display: none; */
   }
