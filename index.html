@@ -429,6 +429,17 @@
 
       </div>
     </section>
+    <!--------------------------------EXPERIENCE SECTION------------------------------------->
+
+  <section class="experience" id="experience">
+    <div class="container">
+      <div class="experience-heading">
+        <h1>Experience</h1>
+        <h6>Past and current jobs</h6>
+      </div>
+
+    </div>
+  </section>
 
     <!--------------------------------CONTACT SECTION------------------------------------->
   <section class="contact" id="contact">
@@ -439,13 +450,15 @@
       </div>
       <form name="contact_form" class="contact-form" action="https://formspree.io/xnqbeyvb" method="POST" data-aos="zoom-in-down" data-aos-delay="100">
         <input id="tb1" type="text" class="contact-form-text" name="name" placeholder="Name" required>
-        <input id="tb2" type="text" class="contact-form-text" name="_replyto" placeholder="Email" required>
+        <input id="tb2" type="text" class="contact-form-text" name="_replyto" placeholder="Email" required onblur="validateEmail(this);">
         <input id="tb3" type="text" class="contact-form-text" name="subject" placeholder="Subject" required>
         <textarea class="contact-form-text" id="msg" name="message" placeholder="Message" rows="10" cols="10"></textarea>
 
-        <button onclick="sweetalertclick()" type="submit" id="sendBtn" name="submit" data-aos="flip-left"
+        <button onclick="sweetalertclick()" type="submit" id="sendBtn" data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000" data-aos-delay="175">Get in touch</button>
+
+        <!-- <input type="hidden" name="_next" value="index.html#contact"/> -->
 
 
       </form>

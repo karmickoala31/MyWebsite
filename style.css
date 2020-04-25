@@ -112,9 +112,9 @@ img{
   /* visibility: hidden; */
   position: absolute;
   display: inline-block;
-  font-size: 20px;
-  margin-top: 3px;
-  margin-left: 7px;
+  margin: 5px 0 0 10px;
+  width: 120px;
+  height: 120px;
 }
 #logo{
   background: linear-gradient(to right, #ffe838, #fd57bf);
@@ -691,6 +691,43 @@ li{
     padding: 1rem;
   }
 
+
+/*Contact section*/
+/***************************************************************************/
+#experience{
+  margin-top: 2rem;
+}
+.experience-heading{
+  margin-top: 20rem;
+  text-align: center;
+  /* text-transform: uppercase; */
+  line-height: 0;
+  margin-bottom: 12rem;
+}
+.experience-heading h1{
+  font-size: 13rem;
+  font-family: thd;
+  background: linear-gradient(to top, #ffe838, #fd57bf);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 3rem;
+  user-select: none;
+}
+.experience-heading h6{
+  font-size: 2rem;
+  font-weight: 300;
+  font-family: 'Abel';
+  color: #F2F2F2;
+  letter-spacing: 0.3rem;
+  user-select: none;
+  text-transform: uppercase;
+  margin-top: -5rem;
+  margin-bottom: -2rem;
+}
+
+
+
+
 /*Contact section*/
 /***************************************************************************/
   #contact{
@@ -796,7 +833,6 @@ li{
   }
 
 
-
 /*Footer*/
 /***************************************************************************/
 .copyright p {
@@ -851,12 +887,15 @@ li{
   div.loader-wrapper{
     /* display: none; */
   }
-  #logo{
-    /* visibility: hidden; */
-
+  .mylogo{
+    position: absolute;
     display: inline-block;
-    width: 90px;
-    height: 90px;
+    margin: 0px 0 0 7px;
+  }
+  #logo{
+    display: inline-block;
+    width: 70px;
+    height: 70px;
   }
   .menu-toggler{
     top: 2.5rem;
@@ -982,6 +1021,14 @@ li{
   .portfolio-description .cta{
     font-size: 1.5rem;
   }
+  .experience-heading h1{
+    font-size: 9.5rem;
+    margin-bottom: 1rem;
+  }
+  .experience-heading h6{
+    font-size: 1.5rem;
+    margin-bottom: -1rem;
+  }
   .up{
     bottom: 2.5rem;
     right: 2.5rem;
@@ -1068,14 +1115,14 @@ li{
     /* display: none; */
   }
   .mylogo{
-    margin: 5px 0 0 7px;
+    position: absolute;
+    display: inline-block;
+    margin: 0 0 0 12px;
   }
   #logo{
-    /* visibility: hidden; */
-
     display: inline-block;
-    width: 120px;
-    height: 120px;
+    width: 95px;
+    height: 95px;
   }
   .menu-toggler{
     top: 3rem;
@@ -1208,6 +1255,14 @@ li{
   .copyright p{
     font-size: 1.5rem;
   }
+  .experience-heading h1{
+    font-size: 12.5rem;
+    margin-bottom: 1rem;
+  }
+  .experience-heading h6{
+    font-size: 2rem;
+    margin-bottom: -1rem;
+  }
   .contact-heading h1{
     font-size: 12.5rem;
     margin-bottom: 1rem;
@@ -1287,14 +1342,14 @@ li{
     /* display: none; */
   }
   .mylogo{
-    margin: 10px 0 0 10px;
+    position: absolute;
+    display: inline-block;
+    margin: 1px 0 0 15px;
   }
   #logo{
-    /* visibility: hidden; */
-
     display: inline-block;
-    width: 140px;
-    height: 140px;
+    width: 120px;
+    height: 120px;
   }
   .menu-toggler{
     top: 5rem;
@@ -1435,6 +1490,14 @@ li{
   }
   .copyright p{
     font-size: 1.5rem;
+  }
+  .experience-heading h1{
+    font-size: 14rem;
+    margin-bottom: 1rem;
+  }
+  .experience-heading h6{
+    font-size: 2.5rem;
+    margin-bottom: -1rem;
   }
   .contact-heading h1{
     font-size: 14rem;
