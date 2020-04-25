@@ -437,13 +437,13 @@
         <h1>Contact</h1>
         <h6>Let's work together!</h6>
       </div>
-      <form name="contact_form" class="contact-form" action="contactform.php" method="POST" data-aos="zoom-in-down" data-aos-delay="100">
+      <form name="contact_form" class="contact-form" action="https://formspree.io/xnqbeyvb" method="POST" data-aos="zoom-in-down" data-aos-delay="100">
         <input id="tb1" type="text" class="contact-form-text" name="name" placeholder="Name" required>
-        <input id="tb2" type="text" class="contact-form-text" name="email" placeholder="Email" required>
+        <input id="tb2" type="text" class="contact-form-text" name="_replyto" placeholder="Email" required>
         <input id="tb3" type="text" class="contact-form-text" name="subject" placeholder="Subject" required>
         <textarea class="contact-form-text" id="msg" name="message" placeholder="Message" rows="10" cols="10"></textarea>
 
-        <button type="submit" id="sendBtn" name="submit" data-aos="flip-left"
+        <button onclick="sweetalertclick()" type="submit" id="sendBtn" name="submit" data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000" data-aos-delay="175">Get in touch</button>
 
