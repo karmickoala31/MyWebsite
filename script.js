@@ -8,9 +8,6 @@ jQuery(document).ready(function ($) {
     });
 });
 
-/*Particles backdrop*/
-
-
 /*Toggle animation*/
 $(document).ready(function() {
   $('.menu-toggler').on('click', function() {
