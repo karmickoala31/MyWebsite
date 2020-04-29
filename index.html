@@ -25,8 +25,8 @@
   </script>
 
   <title>Gauresh Chavan</title>
-</head>
 
+</head>
 <body>
   <div class="loader-wrapper">
       <span class="loader"><span class="loader-inner"></span></span>
@@ -100,7 +100,7 @@
               I love bringing data to life. I am an organized, passionate and a highly detail-oriented Data professional capable of leveraging power of data in delivering insights that drives organizations.
             </p>
             <p data-aos="fade-left" data-aos-delay="130">
-              Born in Mumbai, I was raised by the 90s which meant no computer until 10th grade. Data, let alone Analytics seemed terribly fatuous back then and, I was only honestly interested in Pacman & Pinball. But, technology always kept me fascinating of a world from Back to the Future. Growing up I pursued Computer Sciences as a learning track and completed my Bachelors in Information Technology from Mumbai University. I moved to the United States in 2017 to pursue a graduate degree in Information Systems and based out of Boston, Massachusetts ever since.
+              Born in Mumbai, I was raised by the 90s which meant no personal computer until 10th grade but technology always kept me wanting for more. I remember spending my Sundays at a friends' house playing games, drawing on Paint and doing Powerpoints (just for the sake of it & no reason whatsoever) . Hence, growing up, choosing a learning track was not too difficult as I pursued Computer Sciences and completed my Bachelors in Information Technology from Mumbai University. I moved to the United States in 2017 to pursue a graduate degree in Information Systems and based out of Boston, Massachusetts ever since.
             </p>
             <p class="quote-line"  data-aos="fade-left" data-aos-delay="130">
               <q id="quote">
@@ -283,9 +283,9 @@
                 <ul>
                   <li> Writing MapReduce code in Java. Unlike most analytical tools where computing takes place in the background and in most cases, is invisible to the user, I had an opportunity to write mapper & reducer code from scratch. I took advantage of Writable() & WritableComparable() interfaces from Hadoop which reduces the data size enormously by serializing it. It helps in easy exchange of data between networks.
                   </li>
-                  <li>Using Pig scripts to decrease processing time. Theoretically and practically Pig is supposed to be faster than MapReduce and twice of simple. Additionally, Pig being a scripting language, can help in data cleaning as well. I performed filtering while working with zipcode analysis where I encountered a couple of anomalies.
+                  <li>Using Pig scripts to decrease processing time. Theoretically and practically Pig is supposed to be faster than MapReduce and twice as simple. Additionally, as a scripting language, Pig can help in data cleaning as well. While working with zipcode analysis, I encountered a couple of wrongly entered zipcodes and dealt with it using filter() a function.
                   </li>
-                  <li>Querying on Hive. Hive enables you to write a SQL query which gets converted to a mapreduce job. So, if you have a SQL query that suits your analysis, you can implement in Hadoop using Hive instead of writing a long MapReduce job for the same. Also, Hive is pretty fast, it took about 12 minutes to crunch 17 Million records.
+                  <li>Querying on Hive. Hive enables you to write a SQL query which is converted to a mapreduce job at the back end. So, if you have a SQL query that suits your analysis, you can implement it using Hive instead of writing a long MapReduce equivalent version of it. Also, Hive is pretty fast, it took about 12 minutes to crunch 17 Million records.
                   </li>
                 </ul>
             </p>
@@ -317,7 +317,7 @@
 
       <div class="portfolio-long">
         <div class="subheading"><h6>GOAL:</h6></div>
-        <p>Uber and Lyft's ride prices are not constant like public transport. They are greatly affected by the demand and supply of rides at a given time. So what exactly drives this demand? One might say the time of the day; times between 9am-5pm could see the highest surges as people are commuting to & from from work/home. Another guess could be the weather; rain/snow/heat/humidity can cause people to take more rides.
+        <p>Uber and Lyft's ride prices are not constant like public transport. They are greatly affected by the demand and supply of rides at a given time. But what exactly drives this demand? One might say the time of the day; times between 9am-5pm could see the highest surges as people are commuting to & from work/home. Another guess could be the weather; rain/snow/heat/humidity can cause people to take more rides.
           <br><br>
           My aim was to try & analyze the prices of these apps to highlight factors driving the demand.
 
@@ -371,8 +371,7 @@
 
             <ul>
               <li>
-                Designing ETL jobs: I used Talend Data Integration & SQL Server Intergration Services (SSIS)
-        to build data migration jobs. With the help of documentation and helpful videos, I was able to grasp the best practices while building jobs i.e. color coding, naming data sources, job layout etc. Additionally, in a real world scenario, no one really wants to sit and execute every job in order. To automate, I built a master job by linking individual jobs synchronously & in parallel just so everything can be executed in one go.
+                Designing ETL jobs: I used Talend Data Integration & SQL Server Intergration Services (SSIS) to build data migration jobs. With the help of documentation and helpful videos, I was able to grasp the best practices while building jobs i.e. color coding, naming data sources, job layout etc. Additionally, in a real world scenario, no one really wants to sit and execute every job in order. To automate, I built a master job by linking individual jobs synchronously & in parallel just so everything can be executed in one go.
               </li>
               <li>
                 Dealing with historic data: The whole purpose of a data warehouse is to be able to store/archive data for future use. I used slowly changing dimensions (SCD) to keep track and record changes if any.

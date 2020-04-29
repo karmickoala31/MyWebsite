@@ -262,7 +262,7 @@ li{
 }
 
 /*Scroll down arrow*/
-.scroll-arrow{
+/* .scroll-arrow{
   position: absolute;
   bottom: 5%;
   left: 50%;
@@ -300,7 +300,7 @@ li{
     opacity: 0;
     transform: rotate(45deg) translate(20px, 20px)
   }
-}
+} */
 
 /*About*/
 /***************************************************************************/
