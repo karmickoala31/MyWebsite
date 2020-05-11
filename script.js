@@ -90,7 +90,7 @@ $(this).children(".arrowUp").toggle();
 AOS.init({
     easing: "ease",
     duration: 1000,
-    once: false,
+    once: true,
     disable: 'mobile'
   });
 
